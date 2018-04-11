@@ -1,0 +1,82 @@
+:root {
+  text-align: center;
+}
+
+body {
+  line-height: 44px;
+  vertical-align: center;
+  height: 100vh;
+  display: flex;
+  font-family: cursive;
+}
+
+.container {
+  width: 20em;
+  height: 500px;
+  padding: 20px;
+  margin: auto;
+  display: grid;
+  border-radius: 3em 3em 1.5em 1.5em;
+  border: 1px solid black;
+  background-color: #473e6f;
+}
+
+.button {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+div.digitbtn,
+div.mathbtn,
+div.btn,
+div.deletebtn {
+  border-radius: 1em;
+  border: 1px solid black;
+}
+
+.digitbtn {
+  	background-color: #577620;
+}
+
+.mathbtn,
+.btn {
+  background-color: #094540;
+}
+
+.deletebtn {
+  background-color: #9f2828;
+}
+
+div.digitbtn:hover,
+div.mathbtn:hover,
+div.btn:hover,
+div.deletebtn:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+.title {
+  font-family: Gugi;
+  font-size: 2.5em;
+  color: #eeeeee
+}
+
+.screens {
+  margin: 0px 0px 2em 10px;
+  padding: 1px;
+  border: 1px solid black;
+  border-radius: 1em;
+  background-color: 	#949494;
+
+}
+
+#lbracket,
+#rbracket {
+  background-color: #8d2579
+}
+
+#lbracket:hover,
+#rbracket:hover {
+  background-color: grey;
+}
